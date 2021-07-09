@@ -10,6 +10,7 @@ export default class Button extends React.Component{
          return(
              
              <button>{this.props.name}</button>
+             
          )
     }
 
