@@ -3,6 +3,7 @@ import Button from './Button'
 import React from 'react'
 import State from './StateInFunction'
 import Student from './Props'
+import TextInput from './TextInputGetValue'
 class App extends React.Component {
   constructor()
   {
@@ -23,6 +24,7 @@ class App extends React.Component {
         <Student name={"Pooja"} />
         <Student name={"Riya"} />
         <Student name={"Neeta"} />
+        <TextInput />
       </div>
     );
   }
