@@ -1,10 +1,13 @@
 import './App.css';
-import Button from './Button'
-import React from 'react'
-import State from './StateInFunction'
-import Student from './Props'
-import TextInput from './TextInputGetValue'
-import Hooks from './Hooks'
+import Button from './Button';
+import React from 'react';
+import State from './StateInFunction';
+import Student from './Props';
+import TextInput from './TextInputGetValue';
+import Hooks from './Hooks';
+import UseEffect from './UseEffectHook';
+import StatePropsUseEffect from './StatePropsUseEffect';
+import UseMemo from './UseMemo';
 class App extends React.Component {
   constructor()
   {
@@ -27,6 +30,9 @@ class App extends React.Component {
         <Student name={"Neeta"} />
         <TextInput />
         <Hooks />
+        <UseEffect />
+        <StatePropsUseEffect />
+        <UseMemo />
       </div>
     );
   }
