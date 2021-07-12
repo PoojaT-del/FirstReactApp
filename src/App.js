@@ -8,6 +8,7 @@ import Hooks from './Hooks';
 import UseEffect from './UseEffectHook';
 import StatePropsUseEffect from './StatePropsUseEffect';
 import UseMemo from './UseMemo';
+import UseRef from './UseRef';
 class App extends React.Component {
   constructor()
   {
@@ -33,6 +34,7 @@ class App extends React.Component {
         <UseEffect />
         <StatePropsUseEffect />
         <UseMemo />
+        <UseRef />
       </div>
     );
   }
